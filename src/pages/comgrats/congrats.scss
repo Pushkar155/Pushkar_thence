@@ -1,0 +1,72 @@
+.congr{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .congr_nav{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        img{
+            margin-left: 52.22px;
+            margin-top: 32px;
+        }
+        
+    }
+    .congr_main{
+        height: 357px;
+        width: 718px;
+        // border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 100px;
+        img{
+            height: 80px;
+            width: 80px;
+        }
+        p{
+            font-size: 36px;
+            font-weight: 400;
+            color:rgba(45, 169, 80, 1);
+        }
+        h1{
+            font-size: 56px;
+            font-weight: 600;
+            color:rgba(28, 28, 28, 1);
+            font-family: "Manrope", sans-serif;
+        }
+        span{
+            font-size: 27px;
+            font-weight: 500;
+            text-align: center;
+            color: rgba(114, 114, 114, 1);
+            font-family: "Manrope", sans-serif;
+
+        }
+
+
+    }
+    .congr_footer{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 120px;
+        p{
+            font-family: "Manrope", sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            color: rgba(114, 114, 114, 1);
+            span{
+                font-family: "Manrope", sans-serif;
+                color: black;
+                font-weight: 600;
+
+            }
+        }
+        
+    }
+}
